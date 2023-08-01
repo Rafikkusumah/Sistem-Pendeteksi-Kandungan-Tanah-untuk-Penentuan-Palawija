@@ -3,8 +3,8 @@
 #include <ESP8266HTTPClient.h>
 
 // Replace with your network credentials
-const char* ssid = "4A rfk";
-const char* password = "delete135";
+const char* ssid = "Your SSID";
+const char* password = "YourPasswordSSID";
 SoftwareSerial espSerial(2,3); // Pin 2 digunakan sebagai RX, Pin 3 sebagai TX
 
 void setup() {
